@@ -1,4 +1,11 @@
-function checkForSpam(message) { const LowerCaseMessage = message.toLowerCase(); if (LowerCaseMessage.includes('spam') || LowerCaseMessage.includes('sale')) { return true;} else { return false;} }
+function checkForSpam(message) { 
+  const LowerCaseMessage = message.toLowerCase(); 
+     if (LowerCaseMessage.includes('spam') || LowerCaseMessage.includes('sale')) { 
+      return true;
+     } else { 
+      return false;
+     } 
+}
 
    
   console.log(checkForSpam("Latest technology news")); // false
