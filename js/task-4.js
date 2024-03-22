@@ -1,6 +1,6 @@
 function getShippingCost(country) { switch(country) { 
     case "China":  
-    return `Shipping to ${country} will cost ${price = 100 } credits`; 
+    return `Shipping to ${country} will cost ${price = 100} credits`; 
     case "Chile": 
     return `Shipping to ${country} will cost ${price = 250} credits`;
     case "Australia": 
